@@ -225,18 +225,11 @@ function DashboardContent() {
             </Grid>
 
             <Grid container >
-            {/* <Grid item>
-             <Paper
-                 sx={{
-                   p: 2,
-                   display: "flex",
-                   flexDirection: "column",
-                   height: 400,
-                   width:"100%",
-                 }}>
-                  <ListChart/>
-               </Paper>
-             </Grid> */}
+            <Grid item xs>
+            
+           
+               
+             </Grid>
               <Grid item xs>
              
               <Paper
@@ -326,7 +319,7 @@ function DashboardContent() {
                         marginLeft: "14rem",
                       }}
                       image={require("../images/pics1.jpg")} // require image
-                      title="green iguana"
+                      
                     />
                     <CardContent sx={{ textAlign: "center" }}>
                       <Typography gutterBottom variant="h6" component="div">
@@ -354,9 +347,15 @@ function DashboardContent() {
             <Grid container sx={{paddingTop:'2rem',paddingLeft:'5rem'}}>
             <Grid item xs={2}>
                   <SemiChart/>
-                  <Typography variant="body2" color="text.secondary">
-                        Product Designer
-                      </Typography>
+                  <Grid sx={{width:"100%",height:"5rem",justifyContent:"center",alignItems:"center",}}><Tile
+                    title="Earning this month"
+                    value="$26,256"
+                    results="+2.65%"
+                    chipType="success"
+                  /><p variant="body2" color="text.secondary">
+                  From previous period
+                </p> <Tile/></Grid>
+                  
                 </Grid>
             </Grid>
             <Divider sx={{paddingTop:"2rem"}}/>
