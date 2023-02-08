@@ -1,0 +1,7 @@
+.chip{
+margin-top: auto;
+}
+.Gridchip{
+    display: flex;
+    margin-inline-start: auto !important;
+}

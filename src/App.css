@@ -1,0 +1,14 @@
+@import "https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|IBM+Plex+Sans:400,600&display=swap";
+@import "https://unpkg.com/carbon-components/css/carbon-components.min.css";
+
+.css-1f2kw6w-MuiContainer-root {
+    margin-left: unset !important;
+}
+@media only screen and (max-width: 1200px) {
+    .ProfileBox {
+      Display: none;
+    }
+    body{
+        overflow: hidden;
+    }
+  }
