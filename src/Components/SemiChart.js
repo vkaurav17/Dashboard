@@ -23,7 +23,7 @@ class SemiChart extends React.Component {
 		options: {
 	"title": "Earning",
 	// "resizable": true,
-	"height": "180px",
+	"height": "140px",
 	"width": "350px",
 	"gauge": {
 		"type": "semi",

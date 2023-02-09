@@ -225,11 +225,6 @@ function DashboardContent() {
             </Grid>
 
             <Grid container >
-            <Grid item xs>
-            
-           
-               
-             </Grid>
               <Grid item xs>
              
               <Paper
@@ -256,7 +251,7 @@ function DashboardContent() {
                     p: 2,
                     display: "flex",
                     flexDirection: "column",
-                    height: 270,
+                    height: 300,
                   }}
                 >
                   <CurveChart />
@@ -268,7 +263,7 @@ function DashboardContent() {
                     p: 2,
                     display: "flex",
                     flexDirection: "column",
-                    height: 270,
+                    height: 300,
                     paddingLeft:'4rem'
                   }}
                 >
@@ -281,7 +276,7 @@ function DashboardContent() {
                     p: 2,
                     display: "flex",
                     flexDirection: "column",
-                    height: 270,
+                    height: 300,
                   }}
                 >
                   <ListChart />
@@ -347,14 +342,14 @@ function DashboardContent() {
             <Grid container sx={{paddingTop:'2rem',paddingLeft:'5rem'}}>
             <Grid item xs={2}>
                   <SemiChart/>
-                  <Grid sx={{width:"100%",height:"5rem",justifyContent:"center",alignItems:"center",}}><Tile
+                  <Grid sx={{width:"100%",justifyContent:"center",display:"flex",paddingLeft:"6rem"}}><Tile
                     title="Earning this month"
                     value="$26,256"
                     results="+2.65%"
                     chipType="success"
-                  /><p variant="body2" color="text.secondary">
+                  /> <Tile/><Typography sx={{ display:"flex", paddingLeft:"7rem",paddingTop:"6rem"}}>
                   From previous period
-                </p> <Tile/></Grid>
+                </Typography></Grid>
                   
                 </Grid>
             </Grid>
